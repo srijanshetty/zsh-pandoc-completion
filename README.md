@@ -9,7 +9,7 @@ Installation
 ### Antigen
 
 ```shell
-antigen bundle srijanshetty/pandoc-completion
+antigen bundle srijanshetty/zsh-pandoc-completion
 ```
 
 Acknowledgement
