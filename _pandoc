@@ -70,6 +70,7 @@ _arguments -s -S \
     '--webtex=+[Render TeX formulas using an external script that converts TeX formulas to images.]:URL:'\
     '--dump-args[Print information about command-line arguments to stdout,then exit.]'\
     '--ignore-args[Ignore command-line arguments.]'\
+    '*:FILE:_files'\
     && return 0
 
     return 1
