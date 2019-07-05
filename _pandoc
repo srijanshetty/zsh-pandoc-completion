@@ -72,6 +72,7 @@ _arguments -s -S \
     '--ignore-args[Ignore command-line arguments.]'\
     '--list-input-formats[list available input formats]'\
     '--list-output-formats[list available output formats]'\
+    '--track-changes=+[when tracking changes]:TRACK:(accept reject all)'\
     '*:FILE:_files'\
     && return 0
 
