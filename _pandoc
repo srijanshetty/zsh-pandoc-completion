@@ -72,6 +72,7 @@ _arguments -s -S \
     '--ignore-args[Ignore command-line arguments.]'\
     '--list-input-formats[list available input formats]'\
     '--list-output-formats[list available output formats]'\
+    '*:FILE:_files'\
     && return 0
 
     return 1
